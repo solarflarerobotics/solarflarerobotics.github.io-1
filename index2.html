@@ -138,6 +138,15 @@ h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
 
 </body>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var badgeContainer = document.getElementById('__framer-badge-container');
+      if (badgeContainer) {
+        badgeContainer.parentNode.removeChild(badgeContainer);
+      }
+    });
+</script>
+
 </html>
 
 
